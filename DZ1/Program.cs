@@ -16,8 +16,8 @@ namespace DZ1
 		static void Main(string[] args)
 		{
 			Console.Write("Введите температуру в градусах Цельсия: ");
-			double TC = double.Parse(Console.ReadLine());
-			double TF = 9*TC/5+32;
+			double TC = double.Parse(Console.ReadLine()); //ТС - температура в Цельсия 
+			double TF = 9*TC/5+32; //ТF - температура в Цельсия 
 			Console.WriteLine($"Данная температуру в градусах Фаренгейта: {TF:0.000}");
 			Console.ReadLine();
 		}
